@@ -1,0 +1,176 @@
+*{
+	box-sizing: 0;
+	padding: none;
+}
+
+body{
+	background: linear-gradient(to left, red, blue);
+}
+
+.content{
+	display:  flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+
+/*The home.html page styles*/
+.form{
+	margin-top:  100px;
+	padding: 0 10vw;
+	display: flex;
+	flex-direction: column;
+	align-items:  center;
+	justify-content: 10px;
+	gap: 10px ;
+}
+
+
+h3{
+	font-size: 2rem;
+	font-family: Verdana, serif;
+}
+
+.form > div > label{
+	font-size: 1.1rem;
+	margin-right: 40px;
+	font-weight: bold;
+}
+
+.name-input > input{
+	height:  30px;
+	width: 60%;
+	border-style: solid;
+	border-radius: 5px;
+}
+
+.join{
+	display: flex;
+	flex-direction: row;
+	width:  100%;
+}
+
+.join > input{
+	height:  30px;
+	width: 60%;
+	border-style: solid;
+	border-radius: 5px;
+	margin-right:  20px;
+	margin-left: 50px;
+}
+
+.join > button{
+	background-color:  whitesmoke;
+	border-radius: 10px;
+	width: 60px;
+	border: none;
+	font-size: 1rem;
+	cursor:  pointer;
+}
+
+.join > button:hover{
+	background-color:  green;
+	transition:  2s;
+}
+
+
+.create-btn{
+	border-radius: 5px;
+	border: none;
+	height:  30px;
+	background-color: white;
+	font-size: 1.2rem;
+	cursor: pointer;
+	width:  100%;
+}
+
+.create-btn:hover{
+	background-color: orange;
+	transition:  2s;
+}
+
+
+/* end of styles for home.html */
+
+
+
+/*The room.html styling */
+.message-box{
+	margin-top: 50px;
+	border-color: black;
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 10px;
+	border:  none;
+	background-color: black;
+	height: 80vh;
+	display:  flex;
+	flex-direction: column;
+	width:  80vw;
+	align-items: stretch;
+}
+
+.messages{
+	overflow-y: scroll;
+	flex:  1;
+}
+
+.inputs{
+	padding: 10px;
+	display: flex;
+}
+
+h2{
+	text-align: center;
+	color: darksalmon;
+}
+
+/*#message{
+	flex: 1;
+}
+*/
+.inputs > input{
+	width:  60vw;
+	height: 5vh;
+	font-size: 20px;
+}
+
+#send-btn{
+	background-color:  peachpuff;
+	border-radius: 10px;
+	width: 80px;
+	border: none;
+	font-size: 1rem;
+	font-weight: bold;
+	font-style: oblique;
+	cursor:  pointer;
+	margin-left: 50px;
+}
+
+#send-btn:hover{
+	background-color: limegreen;
+}
+
+strong{
+	color:  red;
+}
+
+.msg{
+	color: white;
+}
+.text{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-left:  10px;
+	padding-right: 10px;
+}
+
+
+.muted{
+	font-size: 10px;
+	color: darkgray;
+}
+
+/*The end of the rooms.html styles */
